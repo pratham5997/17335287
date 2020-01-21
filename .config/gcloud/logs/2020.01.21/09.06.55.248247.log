@@ -1,0 +1,9 @@
+2020-01-21 09:06:55,250 DEBUG    root            Loaded Command Group: [u'gcloud', u'source']
+2020-01-21 09:06:55,256 DEBUG    root            Loaded Command Group: [u'gcloud', u'source', u'repos']
+2020-01-21 09:06:55,265 DEBUG    root            Loaded Command Group: [u'gcloud', u'source', u'repos', u'clone']
+2020-01-21 09:06:55,268 DEBUG    root            Running [gcloud.source.repos.clone] with arguments: [--project: "prathmesh1733528", REPOSITORY_NAME: "new_server"]
+2020-01-21 09:06:56,113 DEBUG    root            Executing [u'git', u'clone', u'https://source.developers.google.com/p/prathmesh1733528/r/new_server', u'/home/prathmesh_choudhary0597/new_server', u'--config', u'credential.helper=', u'--config', u'credential.helper=!gcloud auth git-helper --account=prathmesh.choudhary0597@gmail.com --ignore-unknown $@']
+2020-01-21 09:06:58,235 INFO     ___FILE_ONLY___ Project [prathmesh1733528] repository [new_server] was cloned to [/home/prathmesh_choudhary0597/new_server].
+
+2020-01-21 09:06:58,237 INFO     root            Display format: "default"
+2020-01-21 09:06:58,239 DEBUG    root            SDK update checks are disabled.
